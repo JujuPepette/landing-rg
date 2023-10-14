@@ -1,0 +1,117 @@
+/* Fonts and colors */
+body{
+  background: rgb(240,240,240);
+  color: rgb(30,30,30);
+  font-size: 18px;
+  font-family: Gabarito;
+  margin: 0px;
+  font-weight: lighter;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #6A71E1;
+}
+a {
+  color: #6A71E1;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+
+.container {
+  width: 700px;
+  margin : 0 auto;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+/* Custom design with classes */
+.banner{
+  text-align: center;
+  color: white;
+  padding: 60px 0px;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("https://upload.wikimedia.org/wikipedia/commons/d/d9/Colombus_Isle.JPG");
+  background-size: cover;
+  background-position: center;
+}
+.banner h1 {
+  font-size: 50px;
+  color: #F6FDC3;
+}
+.banner p {
+  opacity: 0.8;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.btn-pink {
+  color: black;
+  background: #FFCF96;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+  border-radius: 4px;
+  padding: 15px 20px;
+}
+.btn-pink:hover {
+  background: black;
+  color: white;
+}
+
+
+.card-destination {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: ;
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+  background-color: #FF8080;
+  border-radius: 0.1px;
+  margin: 16px 0px;
+  flex-basis: 10px;
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.card-destination img {
+  margin-bottom: auto;
+
+}
+
+.card-destination h3 {
+  flex-grow: 1;
+  font-size: 50px;
+  padding-left: 30px;
+}
+
+.card-destination p {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
